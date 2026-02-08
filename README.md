@@ -1,16 +1,48 @@
-# React + Vite
+# 💝 Valentine's Day Proposal Prank App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun, interactive React application designed to prank your special someone on Valentine's Day! 
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Playful "Yes" Button**: The "Yes" button is elusive! It moves away when hovered and changes its text to tease the user ("Please No 🥰", "think again 😃").
+- **The "No" Button Twist**: Clicking "No" is actually the way to proceed... but wait for the surprise!
+- **April Fool Prank**: Instead of a romantic acceptance, the user is greeted with an "April Fool" message and a funny video.
+- **Visual Effects**: 
+  - Floating hearts background animation.
+  - Continuous confetti celebration on the success screen.
+  - Glassmorphism card design.
+- **Responsive Design**: Works on desktop and mobile (though chasing the button is more fun with a mouse!).
 
-## React Compiler
+## 🛠️ Built With
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React** (Vite)
+- **Canvas Confetti** for celebrations
+- **CSS3** for animations and styling
 
-## Expanding the ESLint configuration
+## 🚀 How to Run
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1.  **Clone the repository**:
+    ```bash
+    git clone https://github.com/your-username/valentines-day.git
+    cd valentines-day
+    ```
+
+2.  **Install dependencies**:
+    ```bash
+    npm install
+    ```
+
+3.  **Run the development server**:
+    ```bash
+    npm run dev
+    ```
+
+4.  Open your browser and navigate to the local host URL (usually `http://localhost:5173`).
+
+## 📝 Customization
+
+- **Video**: Replace `src/assets/vid.mp4` with your own video file.
+- **Text**: Update the messages in `src/App.jsx` to personalize the name and prank text.
+- **Images**: You can swap the favicon in `public/heart.svg`.
+
+Enjoy pranking! 💖😂
